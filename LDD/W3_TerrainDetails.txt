@@ -1,0 +1,59 @@
+INSIDE BUILDING
+Details to environment
+- Desks
+- Books
+- Papers
+- Computers
+- Lamps
+- Picture Frames
+- Desk Chairs
+- Desk Trash Cans
+- Printer
+- Telephones - Landlines
+- Rats, other small rodents
+- Dead plants in pots
+- Doors
+	- wooden for offices/bathroom 
+	- metal for the laboratories
+	- Window for the entrance of the building
+
+Terrain
+- Uneven flooring,
+	- some tiles higher than others,
+	- some tiles cracked from roots growing under the building
+
+Fluids
+- Toilets will have little to no water
+- Some puddles, can have accumulated in certain uneven flooring areas
+	- Light can slightly reflect from this area to alert player
+	  of its presence
+
+-----------------------------------------------------------------------
+OUTSIDE BUILDING
+Details to the environment
+- Wildlife
+	- more animals sounds
+	- more animal encounters
+	- more plantation everywhere
+- Branches
+- Leafs
+
+Terrain
+- Very uneven
+	- Parking area and sidewalks are cracked and broken from plant 
+	  roots growing underneath
+- More roots can be found in the path
+- Path is not very visible 
+- Ditches
+
+Fluids
+- Rain
+- Water dropplets falling from tree leafs
+- Puddles found in uneven ground and ditches
+
+-----------------------------------------------------------------------
+QUESTIONS:
+- I know that we had said that the player is to barracade themselves away
+  from the zombies, I have two questions about that:
+	- What materials are going to be used?
+	- Where is the player going to get the materials?
