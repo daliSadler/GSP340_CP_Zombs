@@ -1,9 +1,9 @@
-﻿Log file open, 11/12/16 23:01:17
+﻿Log file open, 11/13/16 15:46:06
 LogInit:Display: Running engine for game: GSP340GrpBWk2Ilab
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1099187589) SRandInit(1099187591).
+LogInit:Display: RandInit(-909911961) SRandInit(-909911959).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.087597
+LogStats: Stats thread started at 0.129813
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
@@ -29,1459 +29,205 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.11.13-04.01.17:736][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.13-04.01.17:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.11.13-04.01.17:742][  0]LogInit: Computer: DALI-MSI
-[2016.11.13-04.01.17:742][  0]LogInit: User: edsad
-[2016.11.13-04.01.17:742][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.11.13-04.01.17:742][  0]LogInit: High frequency timer resolution =2.531253 MHz
-[2016.11.13-04.01.17:742][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.11.13-04.01.17:742][  0]LogMemory: Platform Memory Stats for Windows
-[2016.11.13-04.01.17:742][  0]LogMemory: Process Physical Memory: 313.21 MB used, 313.21 MB peak
-[2016.11.13-04.01.17:742][  0]LogMemory: Process Virtual Memory: 315.96 MB used, 315.96 MB peak
-[2016.11.13-04.01.17:742][  0]LogMemory: Physical Memory: 7033.98 MB used, 16284.60 MB total
-[2016.11.13-04.01.17:742][  0]LogMemory: Virtual Memory: 653.52 MB used, 134217728.00 MB total
-[2016.11.13-04.01.18:128][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.11.13-04.01.18:568][  0]LogD3D11RHI: D3D11 adapters:
-[2016.11.13-04.01.19:163][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2016.11.13-04.01.19:163][  0]LogD3D11RHI:       2018MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 1 output[s]
-[2016.11.13-04.01.19:171][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2016.11.13-04.01.19:171][  0]LogD3D11RHI:       128MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 0 output[s]
-[2016.11.13-04.01.19:172][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.11.13-04.01.19:172][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 0 output[s]
-[2016.11.13-04.01.19:172][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.11.13-04.01.19:177][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.11.13-04.01.19:177][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2016.11.13-04.01.19:177][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.11.13-04.01.19:178][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.11.13-04.01.19:178][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.11.13-04.01.19:743][  0]LogD3D11RHI: Async texture creation enabled
-[2016.11.13-04.01.19:812][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Intermediate/Shaders/WorkingDirectory/216/).
-[2016.11.13-04.01.19:812][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edsad/AppData/Local/Temp/UnrealShaderWorkingDir/A624EA6D442D50B5593505B1ADA1C9EC/'.
-[2016.11.13-04.01.19:812][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.11.13-04.01.20:862][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.11.13-04.01.20:869][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.11.13-04.01.20:875][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.11.13-04.01.20:882][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.11.13-04.01.20:890][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.11.13-04.01.20:894][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.11.13-04.01.20:897][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.11.13-04.01.20:901][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.11.13-04.01.20:905][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.11.13-04.01.20:909][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.11.13-04.01.20:913][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.11.13-04.01.20:921][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.11.13-04.01.20:921][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.11.13-04.01.20:923][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.11.13-04.01.20:941][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.11.13-04.01.20:944][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.11.13-04.01.20:948][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.11.13-04.01.20:951][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.11.13-04.01.20:954][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.11.13-04.01.20:954][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.11.13-04.01.21:070][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.11.13-04.01.21:123][  0]LogDerivedDataCache: Loaded boot cache 0.05s 46MB C:/Users/edsad/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.11.13-04.01.21:123][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/edsad/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.11.13-04.01.21:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.11.13-04.01.21:123][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.11.13-04.01.21:123][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.11.13-04.01.21:123][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.11.13-04.01.21:138][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.11.13-04.01.21:150][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edsad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.11.13-04.01.21:326][  0]LogInit: Selected Device Profile: [Windows]
-[2016.11.13-04.01.21:327][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.11.13-04.01.21:364][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.11.13-04.01.21:497][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.11.13-04.01.21:497][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.11.13-04.01.21:497][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.11.13-04.01.21:752][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.11.13-04.01.21:752][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.11.13-04.01.21:752][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.11.13-04.01.21:764][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.11.13-04.01.21:890][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.13-04.01.21:890][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.11.13-04.01.22:054][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.11.13-04.01.22:054][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.11.13-04.01.22:054][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.11.13-04.01.22:054][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.11.13-04.01.22:054][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.11.13-04.01.22:054][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.11.13-04.01.22:971][  0]LogGameAnalyticsAnalytics:Display: FAnalyticsGameAnalytics Constructor
-[2016.11.13-04.01.22:998][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.11.13-04.01.23:116][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2016.11.13-04.01.23:303][  0]SourceControl: Info Source control is disabled
-[2016.11.13-04.01.23:432][  0]SkunkLog_FixItNote: -----AFixItNote::AFixItNote - Creating a new FixIt note
-[2016.11.13-04.01.23:433][  0]SkunkLog_FixItNote: -----AFixItNote::Update
-[2016.11.13-04.01.23:435][  0]SkunkLog_FixItNote: -----FixItPlugin::StartupModule
-[2016.11.13-04.01.23:575][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.11.13-04.01.23:575][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.11.13-04.01.23:575][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.11.13-04.01.23:575][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.11.13-04.01.23:575][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.11.13-04.01.23:575][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.11.13-04.01.24:205][  0]SkunkLog_FixItNote: -----FixItPlugin::RegisterEdModeUsingFactory
-[2016.11.13-04.01.24:205][  0]SkunkLog_FixItNote: -----FixItPlugin::AddEditorModeExtension
-[2016.11.13-04.01.24:336][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.11.13-04.01.24:439][  0]LogEngine: Initializing Engine...
-[2016.11.13-04.01.24:594][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.11.13-04.01.24:602][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
-[2016.11.13-04.01.24:648][  0]LogInit: FAudioDevice initialized.
-[2016.11.13-04.01.24:670][  0]LogDerivedDataCache: Saved boot cache 0.02s 46MB C:/Users/edsad/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.11.13-04.01.24:673][  0]LogInit: Texture streaming: Enabled
-[2016.11.13-04.01.24:708][  0]LogInit: Transaction tracking system initialized
-[2016.11.13-04.01.24:747][  0]BlueprintLog: New page: Editor Load
-[2016.11.13-04.01.24:863][  0]LocalizationService: Info Localization service is disabled
-[2016.11.13-04.01.24:952][  0]LogConsoleResponse:Display: 
-[2016.11.13-04.01.25:080][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.11.13-04.01.25:080][  0]LogCook:Display: Mobile HDR setting 1
-[2016.11.13-04.01.25:080][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.11.13-04.01.25:157][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/' took 0.01s
-[2016.11.13-04.01.25:157][  0]Cmd: MAP LOAD FILE="D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.11.13-04.01.25:158][  0]LightingResults: New page: Lighting Build
-[2016.11.13-04.01.25:163][  0]MapCheck: New page: Map Check
-[2016.11.13-04.01.25:163][  0]LightingResults: New page: Lighting Build
-[2016.11.13-04.01.25:646][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.11.13-04.01.25:667][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.01.25:667][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.11.13-04.01.25:668][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.11.13-04.01.25:753][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.079ms to complete.
-[2016.11.13-04.01.25:753][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.596
-[2016.11.13-04.01.25:753][  0]SkunkLog_FixItNote: -----FixItPlugin::MapOpened...
-[2016.11.13-04.01.25:754][  0]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.01.25:855][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
-[2016.11.13-04.01.25:855][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
-[2016.11.13-04.01.25:855][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook - First time
-[2016.11.13-04.01.25:855][  0]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.01.25:855][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
-[2016.11.13-04.01.25:855][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
-[2016.11.13-04.01.25:856][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
-[2016.11.13-04.01.25:856][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
-[2016.11.13-04.01.25:885][  0]LogCollectionManager: Loaded 0 collections in 0.003033 seconds
-[2016.11.13-04.01.25:933][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Collections/' took 0.01s
-[2016.11.13-04.01.25:933][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/Developers/edsad/Collections/' took 0.01s
-[2016.11.13-04.01.25:933][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/Collections/' took 0.01s
-[2016.11.13-04.01.25:933][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2016.11.13-04.01.25:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 1983 classes and 352 folders.
-[2016.11.13-04.01.25:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.11.13-04.01.25:958][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.11.13-04.01.25:959][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
-[2016.11.13-04.01.25:972][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.11.13-04.01.25:980][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.11.13-04.01.26:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.11.13-04.01.26:090][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.11.13-04.01.26:098][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.11.13-04.01.26:125][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.11.13-04.01.26:126][  0]LogLoad: Full Startup: 9.38 seconds (BP compile: 0.08 seconds)
-[2016.11.13-04.01.26:126][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.11.13-04.01.26:126][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.11.13-04.01.26:144][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.11.13-04.01.26:144][  0]LogOcInput: OculusInput pre-init called
-[2016.11.13-04.01.26:203][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.11.13-04.01.26:348][  1]LogAssetRegistry: Asset discovery search completed in 3.2543 seconds
-[2016.11.13-04.01.26:348][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.11.13-04.01.26:348][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2016.11.13-04.01.26:386][  2]LogRenderer: Reallocating scene render targets to support 776x664 (Frame:2).
-[2016.11.13-04.01.35:235][248]LogRenderer: Reallocating scene render targets to support 776x700 (Frame:257).
-[2016.11.13-04.01.47:701][664]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.01.54:412][ 61]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.02.11:390][ 79]LogEditorViewport: Clicking Background
-[2016.11.13-04.02.11:390][ 79]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.02.11:390][ 79]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.05:778][523]LogActorFactory: Actor Factory created Cube
-[2016.11.13-04.03.09:777][762]LogActorFactory: Actor Factory created Cube
-[2016.11.13-04.03.09:778][762]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.09:778][762]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.29:617][757]LogEditorViewport: Clicking Background
-[2016.11.13-04.03.29:617][757]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.29:617][757]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.30:500][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.03.30:500][810]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.30:500][810]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.35:591][ 48]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.50:640][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.03.50:640][752]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.03.50:640][752]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.14:820][141]LogEditorViewport: Clicking Background
-[2016.11.13-04.04.14:820][141]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.14:820][141]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.24:254][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.04.24:254][424]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.24:254][424]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.37:748][ 89]LogEditorViewport: Clicking Background
-[2016.11.13-04.04.37:748][ 89]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.37:748][ 89]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.42:362][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.04.42:362][236]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.42:362][236]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.51:583][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.04.51:583][788]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.04.51:583][788]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.05.53:138][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.05.53:138][305]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.05.53:138][305]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.09.25:551][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.09.25:551][820]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.09.25:551][820]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.11.20:331][634]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.11.30:041][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.11.30:041][194]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.11.30:041][194]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.11.38:478][488]LogEditorViewport: Clicking Background
-[2016.11.13-04.11.38:478][488]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.11.38:478][488]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.12.06:196][150]LogEditorViewport: Clicking Background
-[2016.11.13-04.12.32:447][376]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-04.12.32:683][376]LogSavePackage: Save=232.58ms
-[2016.11.13-04.12.32:683][376]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap_Auto17F7C26A345F3D4319C2616870B7D774F.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
-[2016.11.13-04.12.32:684][376]LogSavePackage: Total save time: 236.51ms
-[2016.11.13-04.12.32:684][376]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
-[2016.11.13-04.12.32:684][376]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-04.12.32:684][376]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.12.32:684][376]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.12.32:685][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.287
-[2016.11.13-04.12.32:685][376]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.287
-[2016.11.13-04.14.16:124][936]LogMaterial: Missing cached shader map for material T_Water_M_Mat, compiling. 
-[2016.11.13-04.14.21:207][ 27]LogMaterial: Missing cached shader map for material T_Water_Mat, compiling. 
-[2016.11.13-04.15.18:296][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.15.18:296][858]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.15.18:296][858]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.16.02:207][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.16.02:207][491]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.16.02:207][491]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.17.26:793][354]LogEditorViewport: Clicking Background
-[2016.11.13-04.17.26:793][354]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.17.26:793][354]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.17.27:917][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.17.27:917][412]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.17.27:917][412]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.17.39:982][966]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
-[2016.11.13-04.17.40:075][966]LogTexture:Display: Building textures: Texture2D_2 (G8)
-[2016.11.13-04.17.40:079][966]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
-[2016.11.13-04.17.40:081][966]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
-[2016.11.13-04.17.42:416][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.17.47:721][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.18.10:548][279]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.18.42:240][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.18.52:846][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.19.38:928][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.22.33:040][528]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-04.22.33:328][528]LogSavePackage: Save=259.35ms
-[2016.11.13-04.22.33:328][528]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap_Auto27B5E73F146025665C06A4D96DCFE3332.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
-[2016.11.13-04.22.33:329][528]LogSavePackage: Total save time: 288.89ms
-[2016.11.13-04.22.33:329][528]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
-[2016.11.13-04.22.33:329][528]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-04.22.33:329][528]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.22.33:330][528]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.22.33:330][528]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.302
-[2016.11.13-04.22.33:330][528]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
-[2016.11.13-04.22.33:376][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Water_M_Mat] ([1] browsable assets)...
-[2016.11.13-04.22.33:455][528]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/T_Water_M_Mat.T_Water_M_Mat]
-[2016.11.13-04.22.33:456][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Water_M_Mat]
-[2016.11.13-04.22.33:470][528]LogSavePackage: Save=12.83ms
-[2016.11.13-04.22.33:470][528]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/T_Water_M_Mat_Auto205323E5C42D1F34B55D0F19E2DB7334A.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/StarterContent/Textures/T_Water_M_Mat_Auto2.uasset'
-[2016.11.13-04.22.33:471][528]LogSavePackage: Total save time: 13.87ms
-[2016.11.13-04.22.33:471][528]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/StarterContent/Textures/T_Water_M_Mat_Auto2.uasset
-[2016.11.13-04.22.33:472][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/T_Water_Mat] ([1] browsable assets)...
-[2016.11.13-04.22.33:511][528]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/T_Water_Mat.T_Water_Mat]
-[2016.11.13-04.22.33:511][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/T_Water_Mat]
-[2016.11.13-04.22.33:522][528]LogSavePackage: Save=10.40ms
-[2016.11.13-04.22.33:522][528]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/T_Water_Mat_Auto2DAECE3564A5FD994BAB819AAA4AF879D.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/StarterContent/Textures/T_Water_Mat_Auto2.uasset'
-[2016.11.13-04.22.33:523][528]LogSavePackage: Total save time: 11.40ms
-[2016.11.13-04.22.33:523][528]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/StarterContent/Textures/T_Water_Mat_Auto2.uasset
-[2016.11.13-04.22.33:523][528]LogFileHelpers: Auto-saving content packages took 0.149
-[2016.11.13-04.24.25:877][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.25.32:117][382]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Water_Lake.M_Water_Lake needed to have new flag set bUsedWithLandscape !
-[2016.11.13-04.25.32:125][382]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
-[2016.11.13-04.25.32:162][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.11.13-04.25.32:163][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:163][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:164][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:164][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:165][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:165][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:166][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:166][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:167][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:167][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:168][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:168][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:168][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:169][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:169][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:170][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:170][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:171][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:171][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:171][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:172][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:172][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:172][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:172][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:173][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:173][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:173][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:173][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:174][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:174][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:174][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:175][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:175][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:175][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:175][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:176][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:176][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:177][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:177][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:178][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:178][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:178][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:179][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:179][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:180][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:180][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:180][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:180][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:181][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:181][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:181][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:182][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:182][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:182][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:183][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:183][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:183][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:184][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:184][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:184][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:185][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:185][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:186][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:186][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.25.32:227][382]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2016.11.13-04.25.32:272][383]Cmd: UpdateLandscapeEditorData
-[2016.11.13-04.26.07:019][803]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2016.11.13-04.27.18:846][889]Cmd: TRANSACTION UNDO
-[2016.11.13-04.27.18:846][889]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2016.11.13-04.27.18:847][889]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.19:316][907]Cmd: TRANSACTION UNDO
-[2016.11.13-04.27.19:316][907]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-04.27.19:336][907]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:337][907]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:338][907]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2016.11.13-04.27.19:349][907]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.19:627][914]Cmd: TRANSACTION UNDO
-[2016.11.13-04.27.19:627][914]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-04.27.19:668][914]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:669][914]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:670][914]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2016.11.13-04.27.19:681][914]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.19:939][921]Cmd: TRANSACTION UNDO
-[2016.11.13-04.27.19:939][921]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-04.27.19:983][921]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
-[2016.11.13-04.27.19:994][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:996][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:997][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:998][921]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.19:998][921]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.20:278][928]Cmd: TRANSACTION UNDO
-[2016.11.13-04.27.20:278][928]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-04.27.20:332][928]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:333][928]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:333][928]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:334][928]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:335][928]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.20:615][935]Cmd: TRANSACTION UNDO
-[2016.11.13-04.27.20:615][935]LogEditorTransaction: Undo Creating New Landscape
-[2016.11.13-04.27.20:669][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:670][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:670][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:671][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:672][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:672][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:673][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:673][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:674][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:675][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:675][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:676][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:677][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:677][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:678][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:678][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:679][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:679][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:680][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:681][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:682][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:682][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:683][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:684][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:684][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:685][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:685][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:686][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:687][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:687][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:687][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:687][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:688][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:697][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:700][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:702][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:705][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:708][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:711][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:714][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:717][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:720][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:722][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:726][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:729][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:731][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:734][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:736][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:739][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:742][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:745][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:748][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:751][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:753][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:756][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:759][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:762][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:765][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:769][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:771][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:774][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:777][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:780][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:783][935]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-04.27.20:784][935]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.20:870][936]Cmd: UpdateLandscapeEditorData
-[2016.11.13-04.27.22:094][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.27.22:094][964]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.22:094][964]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.27.22:718][979]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2016.11.13-04.28.36:171][773]LogEditorViewport: Clicking Background
-[2016.11.13-04.28.36:172][773]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.28.36:172][773]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.28.39:138][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.28.39:138][951]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.28.39:138][951]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.28.47:063][196]LogTexture:Display: Building textures: Texture2D_4 (G8)
-[2016.11.13-04.28.55:582][567]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2016.11.13-04.29.07:755][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.30.22:067][493]LogEditorViewport: Clicking Background
-[2016.11.13-04.30.22:067][493]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.30.45:042][630]LogEditorViewport: Clicking Background
-[2016.11.13-04.30.45:043][630]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-04.30.45:765][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.30.46:215][693]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2016.11.13-04.31.28:407][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-04.32.33:917][369]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-04.32.34:193][369]LogSavePackage: Save=272.96ms
-[2016.11.13-04.32.34:193][369]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap_Auto32741711048860D64350AD5A99CBE69E0.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
-[2016.11.13-04.32.34:193][369]LogSavePackage: Total save time: 276.03ms
-[2016.11.13-04.32.34:194][369]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
-[2016.11.13-04.32.34:194][369]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-04.32.34:194][369]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.32.34:194][369]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-04.32.34:195][369]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.327
-[2016.11.13-04.32.34:195][369]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.327
-[2016.11.13-04.32.34:318][370]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.03.23:433][921]LogEditorViewport: Clicking Background
-[2016.11.13-05.03.23:433][921]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.03.24:376][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.03.49:096][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.03.49:679][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.03.53:280][500]Cmd: TRANSACTION UNDO
-[2016.11.13-05.03.53:280][500]LogEditorTransaction: Undo Move Actors
-[2016.11.13-05.03.53:281][500]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.03.55:393][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.03.56:031][569]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2016.11.13-05.04.03:239][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.04.03:239][844]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.04.03:239][844]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.04.59:068][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.04.59:068][185]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.04.59:068][185]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.05.02:330][364]LogTexture:Display: Building textures: Texture2D_5 (G8)
-[2016.11.13-05.05.08:501][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:501][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:502][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:502][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:502][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:503][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:503][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:504][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:504][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:505][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:505][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:506][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:507][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:507][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:508][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:508][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:509][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:509][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:510][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:510][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:510][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:511][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:511][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:511][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:512][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:512][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:512][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:513][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:513][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:513][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:514][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:514][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:515][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:515][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:516][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:516][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:516][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:517][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:517][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:517][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:518][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:518][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:518][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:518][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:519][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:519][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:519][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:519][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:520][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:520][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:520][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:520][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:521][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:521][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:521][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:521][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:522][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:522][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:523][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:523][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:523][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:523][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:524][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:524][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.05.08:554][707]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2016.11.13-05.05.08:595][708]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.06.03:532][493]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
-[2016.11.13-05.06.04:481][513]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.04:481][513]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2016.11.13-05.06.04:482][513]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.05:874][542]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.05:874][542]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.05:918][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:924][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:925][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:927][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:928][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:929][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:930][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.05:930][542]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.18:186][164]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2016.11.13-05.06.18:187][164]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.18:187][164]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.32:328][977]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.32:328][977]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.32:336][977]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2016.11.13-05.06.32:359][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:361][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:362][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:363][977]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:364][977]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.32:917][996]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.32:917][996]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.32:963][996]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2016.11.13-05.06.32:977][996]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:978][996]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:979][996]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:980][996]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.32:980][996]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.33:459][  8]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.33:459][  8]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.33:508][  8]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2016.11.13-05.06.33:520][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:521][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:524][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:524][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:525][  8]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.33:930][ 18]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.33:930][ 18]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.33:975][ 18]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2016.11.13-05.06.33:989][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:990][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:991][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:993][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:994][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.33:994][ 18]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.34:473][ 30]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.34:473][ 30]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.34:518][ 30]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
-[2016.11.13-05.06.34:531][ 30]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.34:532][ 30]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.34:533][ 30]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.34:534][ 30]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.34:535][ 30]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.34:969][ 41]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.34:969][ 41]LogEditorTransaction: Undo Clicking on Actors (context menu)
-[2016.11.13-05.06.34:970][ 41]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.34:988][ 41]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.35:505][ 53]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.35:505][ 53]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.06.35:553][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:554][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:554][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:555][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:556][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:561][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:561][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:562][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:563][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:564][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:565][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:565][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.35:566][ 53]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.36:926][ 85]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.36:926][ 85]LogEditorTransaction: Undo Creating New Landscape
-[2016.11.13-05.06.36:985][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:985][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:986][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:986][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:987][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:987][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:988][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:988][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:988][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:989][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:989][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:989][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:989][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:990][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:990][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:991][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:991][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:992][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:992][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:993][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:994][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:994][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:994][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:995][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:995][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:995][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:996][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:996][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:996][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:997][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:997][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:998][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:998][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.36:998][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:011][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:014][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:017][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:020][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:022][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:025][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:027][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:030][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:032][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:035][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:037][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:040][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:043][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:046][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:048][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:051][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:054][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:057][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:060][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:064][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:066][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:069][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:072][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:076][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:080][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:082][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:086][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:088][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:091][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:096][ 85]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.06.37:097][ 85]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.37:174][ 86]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.06.38:099][106]Cmd: TRANSACTION UNDO
-[2016.11.13-05.06.38:099][106]LogEditorTransaction: Undo Clicking on Actors
-[2016.11.13-05.06.38:100][106]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.52:632][636]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.06.52:859][636]LogTexture:Display: Building textures: T_Ground_Grass_D (AutoDXT)
-[2016.11.13-05.06.55:547][636]LogTexture:Display: Building textures: T_Ground_Grass_N (BC5)
-[2016.11.13-05.07.11:690][441]LogTexture:Display: Building textures: Texture2D_7 (G8)
-[2016.11.13-05.07.15:901][585]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.07.20:451][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:451][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:451][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:452][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:452][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:452][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:453][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:453][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:454][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:454][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:455][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:455][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:456][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:457][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:458][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:458][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:458][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:459][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:459][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:459][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:460][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:460][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:460][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:461][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:461][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:461][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:461][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:462][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:462][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:462][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:463][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:463][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:463][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:463][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:464][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:464][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:464][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:465][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:465][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:465][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:466][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:466][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:466][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:466][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:467][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:467][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:467][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:468][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:468][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:468][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:469][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:469][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:469][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:469][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:470][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:470][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:470][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:470][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:471][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:471][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:471][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:472][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:472][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:473][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.20:506][780]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
-[2016.11.13-05.07.20:546][781]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.07.30:168][358]Cmd: TRANSACTION UNDO
-[2016.11.13-05.07.30:168][358]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.07.30:175][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.30:176][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.30:177][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.30:178][358]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.30:178][358]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.07.46:601][238]Cmd: TRANSACTION UNDO
-[2016.11.13-05.07.46:601][238]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.07.46:605][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.46:607][238]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
-[2016.11.13-05.07.46:620][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.46:623][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.07.46:623][238]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.09.01:856][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.09.01:856][263]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.09.01:856][263]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.09.04:124][357]LogActorFactory: Actor Factory created Cube
-[2016.11.13-05.09.04:718][392]LogActorFactory: Actor Factory created Cube
-[2016.11.13-05.09.04:718][392]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.09.04:718][392]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.10.20:474][644]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.10.23:140][748]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.10.34:501][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2016.11.13-05.10.34:501][404]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.10.34:501][404]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.46:422][294]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.46:422][294]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.46:423][294]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.46:900][312]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.46:900][312]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.46:918][312]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.47:269][321]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.47:269][321]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.47:310][321]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.47:618][329]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.47:618][329]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.47:664][329]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.47:967][337]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.47:967][337]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.48:009][337]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.48:277][344]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.48:277][344]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.48:318][344]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.48:491][349]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.48:491][349]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.48:535][349]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.48:753][355]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.48:753][355]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.48:798][355]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.48:977][360]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.48:977][360]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.49:017][360]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.49:196][365]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.49:196][365]LogEditorTransaction: Undo Move Actors
-[2016.11.13-05.12.49:236][365]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.49:454][371]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.49:454][371]LogEditorTransaction: Undo Clicking on Actors
-[2016.11.13-05.12.49:454][371]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.49:713][377]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.49:713][377]LogEditorTransaction: Undo Create Actors
-[2016.11.13-05.12.49:755][377]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.50:022][384]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.50:023][384]LogEditorTransaction: Undo Create Actors
-[2016.11.13-05.12.50:067][384]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.50:387][392]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.50:387][392]LogEditorTransaction: Undo Move Actors
-[2016.11.13-05.12.50:436][392]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.51:606][420]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.51:606][420]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.51:649][420]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.51:955][427]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.51:955][427]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.51:956][427]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.52:218][434]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.52:218][434]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.52:261][434]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.52:442][439]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.52:442][439]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.52:485][439]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.53:759][468]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.53:759][468]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.53:802][468]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.54:017][474]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.54:017][474]LogEditorTransaction: Undo Scale Actors
-[2016.11.13-05.12.54:060][474]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.54:228][479]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.54:228][479]LogEditorTransaction: Undo Move Actors
-[2016.11.13-05.12.54:269][479]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.54:450][484]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.54:450][484]LogEditorTransaction: Undo Create Actors
-[2016.11.13-05.12.54:504][484]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.54:504][484]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.54:672][488]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.54:672][488]LogEditorTransaction: Undo Clicking on Actors
-[2016.11.13-05.12.54:673][488]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.54:935][494]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.54:935][494]LogEditorTransaction: Undo Move Actors
-[2016.11.13-05.12.54:981][494]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.55:157][499]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.55:157][499]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.12.55:202][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:203][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:205][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:206][499]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
-[2016.11.13-05.12.55:218][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:219][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:221][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:222][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:223][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:223][499]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.55:324][502]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.55:324][502]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.12.55:373][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:374][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:375][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:376][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:377][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:377][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:377][502]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.55:592][508]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.55:592][508]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.12.55:637][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:639][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:641][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:646][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:647][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:648][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:649][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:650][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:650][508]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.55:825][513]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.55:825][513]LogEditorTransaction: Undo Creating New Landscape
-[2016.11.13-05.12.55:885][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:886][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:887][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:887][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:888][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:888][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:889][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:889][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:890][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:890][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:891][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:892][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:892][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:893][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:893][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:894][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:895][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:895][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:896][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:897][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:897][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:898][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:898][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:899][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:899][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:899][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:899][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:900][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:900][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:900][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:901][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:901][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:901][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:901][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:912][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:914][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:917][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:920][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:922][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:925][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:928][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:930][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:933][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:936][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:940][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:943][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:945][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:948][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:950][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:953][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:956][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:959][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:963][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:966][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:969][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:973][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:976][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:978][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:981][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:984][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:987][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:990][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:993][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:996][513]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.12.55:997][513]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.56:030][514]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.12.56:078][514]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.56:078][514]LogEditorTransaction: Undo Edit Material
-[2016.11.13-05.12.56:078][514]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.56:311][520]Cmd: TRANSACTION UNDO
-[2016.11.13-05.12.56:311][520]LogEditorTransaction: Undo Create Actors
-[2016.11.13-05.12.56:353][520]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.59:206][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.11.13-05.12.59:206][589]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.12.59:206][589]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.13.00:439][655]Cmd: DELETE
-[2016.11.13-05.13.00:439][655]Cmd: ACTOR DELETE
-[2016.11.13-05.13.00:440][655]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.13.00:441][655]LogEditorActor: Deleted Actor: StaticMeshActor
-[2016.11.13-05.13.00:453][655]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.13.00:453][655]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2016.11.13-05.13.00:457][656]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.13.18:157][ 53]LogRenderer: Reallocating scene render targets to support 1188x720 (Frame:117836).
-[2016.11.13-05.13.20:921][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
-[2016.11.13-05.13.20:921][209]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.13.20:921][209]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.13.34:421][869]LogEditorViewport: Clicking Background
-[2016.11.13-05.13.34:421][869]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.13.34:421][869]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.14.43:231][906]LogEditorViewport: Clicking Background
-[2016.11.13-05.15.05:940][213]LogEditorViewport: Clicking Background
-[2016.11.13-05.15.08:621][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:621][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:622][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:622][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:623][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:623][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:624][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:624][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:625][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:625][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:626][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:626][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:627][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:628][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:628][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:629][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.08:636][361]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.15.08:666][362]Cmd: UpdateLandscapeEditorData
-[2016.11.13-05.15.17:387][885]Cmd: TRANSACTION UNDO
-[2016.11.13-05.15.17:387][885]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.15.17:391][885]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.17:393][885]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.15.20:025][953]Cmd: TRANSACTION UNDO
-[2016.11.13-05.15.20:025][953]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.15.20:067][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.20:069][953]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.15.25:510][168]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.15.25:510][168]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.15.29:060][381]Cmd: TRANSACTION UNDO
-[2016.11.13-05.15.29:060][381]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.15.29:063][381]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.29:065][381]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.29:066][381]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.15.29:070][381]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.15.31:572][446]Cmd: TRANSACTION UNDO
-[2016.11.13-05.15.31:572][446]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.15.31:616][446]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.15.31:618][446]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.16.27:933][409]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
-[2016.11.13-05.16.27:933][409]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.16.27:933][409]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.16.47:206][292]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.17.02:179][146]LogPhysics:Warning: Scale 'X=93.125 Y=36.750 Z=0.000' is not valid on object '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube9_3.StaticMeshComponent0 1M_Cube'.
-[2016.11.13-05.17.02:179][146]LogPhysics:Warning: Scale 'X=93.125 Y=36.750 Z=0.000' is not valid on object '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube9_3.StaticMeshComponent0 1M_Cube'.
-[2016.11.13-05.17.10:550][648]LogPhysics:Warning: Scale 'X=93.125 Y=36.750 Z=0.000' is not valid on object '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube9_3.StaticMeshComponent0 1M_Cube'.
-[2016.11.13-05.17.10:550][648]LogPhysics:Warning: Scale 'X=93.125 Y=36.750 Z=0.000' is not valid on object '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.EditorCube9_3.StaticMeshComponent0 1M_Cube'.
-[2016.11.13-05.18.49:238][488]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.18.49:238][488]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.18.50:632][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2016.11.13-05.18.50:640][527]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.19.04:514][291]Cmd: TRANSACTION UNDO
-[2016.11.13-05.19.04:514][291]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.19.04:517][291]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.19.04:519][291]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.19.04:520][291]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.19.04:525][291]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.19.04:526][291]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.20.14:862][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
-[2016.11.13-05.20.14:862][253]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.20.14:862][253]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.20.19:920][398]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
-[2016.11.13-05.20.19:999][398]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
-[2016.11.13-05.20.20:006][398]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.11.13-05.20.20:035][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
-[2016.11.13-05.20.20:040][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
-[2016.11.13-05.20.20:043][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2016.11.13-05.20.20:046][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
-[2016.11.13-05.20.20:049][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
-[2016.11.13-05.20.20:053][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
-[2016.11.13-05.20.20:056][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
-[2016.11.13-05.20.20:059][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
-[2016.11.13-05.20.20:062][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
-[2016.11.13-05.20.20:065][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
-[2016.11.13-05.20.21:753][423]MaterialEditorStats: Info Base pass shader with static lighting: 113 instructions
-[2016.11.13-05.20.21:753][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 86 instructions
-[2016.11.13-05.20.21:753][423]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2016.11.13-05.20.21:753][423]MaterialEditorStats: Info Texture samplers: 3/16
-[2016.11.13-05.20.31:921][977]LogEditorViewport: Clicking Background
-[2016.11.13-05.20.31:922][977]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.20.31:922][977]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.21.12:076][  9]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-05.21.12:119][  9]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.21.12:365][  9]LogSavePackage: Save=286.82ms
-[2016.11.13-05.21.12:365][  9]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap_Auto4A78992884F36D4CBD078DBB91A2432E2.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
-[2016.11.13-05.21.12:365][  9]LogSavePackage: Total save time: 289.86ms
-[2016.11.13-05.21.12:365][  9]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
-[2016.11.13-05.21.12:366][  9]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-05.21.12:366][  9]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.21.12:366][  9]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.21.12:367][  9]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.334
-[2016.11.13-05.21.12:367][  9]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.334
-[2016.11.13-05.23.53:175][492]LogEditorViewport: Clicking Background
-[2016.11.13-05.24.21:041][139]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-05.24.21:332][139]LogSavePackage: Save=283.32ms
-[2016.11.13-05.24.21:332][139]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMapBBD1350C4C1DC4CC1E27778D29DA0A15.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2016.11.13-05.24.21:334][139]LogSavePackage: Total save time: 286.00ms
-[2016.11.13-05.24.21:334][139]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2016.11.13-05.24.21:349][139]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-05.24.21:350][139]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.24.21:350][139]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.24.21:350][139]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.415
-[2016.11.13-05.24.21:399][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/T_Water_M_Mat" FILE="D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/StarterContent/Textures/T_Water_M_Mat.uasset" SILENT=true
-[2016.11.13-05.24.21:413][139]LogSavePackage: Save=12.39ms
-[2016.11.13-05.24.21:413][139]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/T_Water_M_MatD681B8BB4DB2B7E25EA89C877D57DB82.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/StarterContent/Textures/T_Water_M_Mat.uasset'
-[2016.11.13-05.24.21:414][139]LogSavePackage: Total save time: 13.92ms
-[2016.11.13-05.24.21:414][139]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/StarterContent/Textures/T_Water_M_Mat.uasset
-[2016.11.13-05.24.21:460][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Textures/T_Water_Mat" FILE="D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/StarterContent/Textures/T_Water_Mat.uasset" SILENT=true
-[2016.11.13-05.24.21:472][139]LogSavePackage: Save=11.30ms
-[2016.11.13-05.24.21:472][139]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/T_Water_Mat81CC4EE64B943822E0DE4682CAFF002E.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/StarterContent/Textures/T_Water_Mat.uasset'
-[2016.11.13-05.24.21:474][139]LogSavePackage: Total save time: 14.33ms
-[2016.11.13-05.24.21:475][139]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/StarterContent/Textures/T_Water_Mat.uasset
-[2016.11.13-05.24.30:478][554]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.24.38:606][ 31]Cmd: TRANSACTION UNDO
-[2016.11.13-05.24.38:606][ 31]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.24.38:618][ 31]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.24.38:620][ 31]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.24.38:620][ 31]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.34.40:730][544]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-05.34.40:775][544]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.34.41:026][544]LogSavePackage: Save=293.18ms
-[2016.11.13-05.34.41:026][544]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap_Auto55C10A9FB41CB733D7AF1F49A93B58492.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
-[2016.11.13-05.34.41:027][544]LogSavePackage: Total save time: 297.60ms
-[2016.11.13-05.34.41:027][544]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
-[2016.11.13-05.34.41:028][544]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-05.34.41:028][544]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.34.41:028][544]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.34.41:029][544]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.344
-[2016.11.13-05.34.41:029][544]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.344
-[2016.11.13-05.36.22:746][617]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape3)
-[2016.11.13-05.36.22:746][617]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.36.22:746][617]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.36.24:437][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
-[2016.11.13-05.38.02:115][430]LogRenderer: Reallocating scene render targets to support 1308x720 (Frame:159357).
-[2016.11.13-05.38.40:756][652]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.40.52:758][442]Cmd: TRANSACTION UNDO
-[2016.11.13-05.40.52:758][442]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2016.11.13-05.40.52:783][442]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.40.52:790][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.40.52:791][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.40.52:794][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.40.52:795][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.40.52:795][442]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.40.52:795][442]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.41.03:633][911]Cmd: TRANSACTION UNDO
-[2016.11.13-05.41.03:633][911]LogEditorTransaction: Undo Move Actors
-[2016.11.13-05.41.03:638][911]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.41.04:645][942]Cmd: TRANSACTION UNDO
-[2016.11.13-05.41.04:645][942]LogEditorTransaction: Undo Landscape Editing: Noise
-[2016.11.13-05.41.04:696][942]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.41.04:699][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.04:700][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.04:701][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.04:702][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.04:703][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.04:704][942]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.04:704][942]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.41.05:137][953]Cmd: TRANSACTION UNDO
-[2016.11.13-05.41.05:137][953]LogEditorTransaction: Undo Landscape Editing: Noise
-[2016.11.13-05.41.05:189][953]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.41.05:192][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:193][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:193][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:194][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:195][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:196][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:196][953]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.41.05:643][964]Cmd: TRANSACTION UNDO
-[2016.11.13-05.41.05:643][964]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.41.05:695][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:695][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:696][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:697][964]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.41.05:700][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:701][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:702][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:703][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:704][964]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.05:704][964]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.41.06:439][982]Cmd: TRANSACTION UNDO
-[2016.11.13-05.41.06:439][982]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2016.11.13-05.41.06:493][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:494][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:495][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:496][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:496][982]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.41.06:499][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:499][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:501][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:502][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:503][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:504][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.06:504][982]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.41.29:604][771]Cmd: TRANSACTION REDO
-[2016.11.13-05.41.29:604][771]LogEditorTransaction: Redo Landscape Editing: Sculpt
-[2016.11.13-05.41.29:615][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:615][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:616][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:617][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:618][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:619][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:619][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:621][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:624][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:624][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
-[2016.11.13-05.41.29:625][771]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.42.49:457][ 18]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-05.42.49:511][ 18]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.42.49:754][ 18]LogSavePackage: Save=287.78ms
-[2016.11.13-05.42.49:754][ 18]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap7992F46A42A8BA1FDBD0F9854F286716.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2016.11.13-05.42.49:757][ 18]LogSavePackage: Total save time: 292.51ms
-[2016.11.13-05.42.49:757][ 18]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2016.11.13-05.42.49:771][ 18]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-05.42.49:771][ 18]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.42.49:771][ 18]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.42.49:772][ 18]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.419
-[2016.11.13-05.43.22:431][914]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.43.42:324][ 84]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-05.43.42:378][ 84]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
-[2016.11.13-05.43.42:618][ 84]LogSavePackage: Save=285.58ms
-[2016.11.13-05.43.42:618][ 84]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap5DDC3A9C46A28F95ED746191C03877DC.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2016.11.13-05.43.42:620][ 84]LogSavePackage: Total save time: 288.40ms
-[2016.11.13-05.43.42:620][ 84]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2016.11.13-05.43.42:635][ 84]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-05.43.42:635][ 84]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.43.42:635][ 84]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.43.42:636][ 84]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.424
-[2016.11.13-05.43.57:384][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
-[2016.11.13-05.43.57:384][903]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.43.57:384][903]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.44.10:228][663]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
-[2016.11.13-05.44.10:513][663]LogSavePackage: Save=274.85ms
-[2016.11.13-05.44.10:513][663]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap33AE5B0F4AE9FC087D78468B9753E247.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2016.11.13-05.44.10:514][663]LogSavePackage: Total save time: 277.60ms
-[2016.11.13-05.44.10:514][663]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2016.11.13-05.44.10:528][663]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
-[2016.11.13-05.44.10:528][663]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.44.10:528][663]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.44.10:529][663]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.402
-[2016.11.13-05.44.12:387][762]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
-[2016.11.13-05.44.12:387][762]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.44.12:387][762]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.44.19:726][202]LogEditorViewport: Clicking Background
-[2016.11.13-05.44.19:727][202]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.44.19:727][202]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
-[2016.11.13-05.55.28:371][169]SourceControl: Info Source control is disabled
-[2016.11.13-05.55.31:024][318]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.11.13-05.55.31:261][319]Cmd: QUIT_EDITOR
-[2016.11.13-05.55.31:419][319]LogExit: Preparing to exit.
-[2016.11.13-05.55.31:420][319]SkunkLog_FixItNote: -----FixItPlugin::PreExit...
-[2016.11.13-05.55.31:420][319]SkunkLog_FixItNote: -----FFixItEdMode::PreShutdownHook
-[2016.11.13-05.55.31:420][319]SkunkLog_FixItNote: -----FFixItEdMode::SaveToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
-[2016.11.13-05.55.32:352][319]LogExit: Editor shut down
-[2016.11.13-05.55.32:353][319]LogExit: Transaction tracking system shut down
-[2016.11.13-05.55.32:514][319]LogObj: Freed 0b from 0 cluster array pools.
-[2016.11.13-05.55.32:515][319]LogExit: Object subsystem successfully closed.
-[2016.11.13-05.55.32:540][319]LogD3D11RHI: Shutdown
-[2016.11.13-05.55.32:540][319]LogD3D11RHI: CleanupD3DDevice
-[2016.11.13-05.55.32:718][319]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.11.13-05.55.32:753][319]LogDerivedDataCache: Shutdown
-[2016.11.13-05.55.32:753][319]LogModuleManager: Shutting down and abandoning module MaterialEditor (208)
-[2016.11.13-05.55.32:754][319]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
-[2016.11.13-05.55.32:754][319]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
-[2016.11.13-05.55.32:754][319]LogModuleManager: Shutting down and abandoning module SuperSearch (205)
-[2016.11.13-05.55.32:754][319]LogModuleManager: Shutting down and abandoning module WidgetCarousel (204)
-[2016.11.13-05.55.32:754][319]LogModuleManager: Shutting down and abandoning module AddContentDialog (203)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module GameplayTags (202)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module EditorWidgets (201)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module CollectionManager (200)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module BspMode (192)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.11.13-05.55.32:761][319]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.11.13-05.55.32:762][319]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.11.13-05.55.32:762][319]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.11.13-05.55.32:762][319]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.11.13-05.55.32:762][319]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.11.13-05.55.32:802][319]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.11.13-05.55.32:803][319]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.11.13-05.55.32:803][319]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.11.13-05.55.32:803][319]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.11.13-05.55.32:803][319]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.11.13-05.55.32:803][319]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.11.13-05.55.32:803][319]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.11.13-05.55.32:834][319]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.11.13-05.55.32:835][319]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module FixItNotePlugin (117)
-[2016.11.13-05.55.32:844][319]SkunkLog_FixItNote: -----FixItPlugin::ShutdownModule
-[2016.11.13-05.55.32:844][319]SkunkLog_FixItNote: -----FFixItEdMode::ShutdownHook
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module SourceControl (107)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
-[2016.11.13-05.55.32:844][319]LogModuleManager: Shutting down and abandoning module HotReload (101)
-[2016.11.13-05.55.32:845][319]LogModuleManager: Shutting down and abandoning module MainFrame (100)
-[2016.11.13-05.55.32:845][319]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
-[2016.11.13-05.55.32:847][319]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
-[2016.11.13-05.55.32:854][319]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
-[2016.11.13-05.55.33:137][319]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.11.13-05.55.33:138][319]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.11.13-05.55.33:138][319]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2016.11.13-05.55.33:239][319]LogModuleManager: Shutting down and abandoning module GameAnalyticsEditor (93)
-[2016.11.13-05.55.33:239][319]LogModuleManager: Shutting down and abandoning module GameAnalytics (92)
-[2016.11.13-05.55.33:240][319]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
-[2016.11.13-05.55.33:240][319]LogModuleManager: Shutting down and abandoning module Paper2D (90)
-[2016.11.13-05.55.33:240][319]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
-[2016.11.13-05.55.33:240][319]LogModuleManager: Shutting down and abandoning module Media (88)
-[2016.11.13-05.55.33:240][319]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
-[2016.11.13-05.55.33:241][319]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
-[2016.11.13-05.55.33:241][319]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.11.13-05.55.33:241][319]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.11.13-05.55.33:241][319]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.11.13-05.55.33:242][319]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.11.13-05.55.33:243][319]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.11.13-05.55.33:243][319]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.11.13-05.55.33:243][319]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.11.13-05.55.33:243][319]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.11.13-05.55.33:244][319]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.11.13-05.55.33:244][319]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.11.13-05.55.33:253][319]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.11.13-05.55.33:254][319]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.11.13-05.55.33:254][319]LogDerivedDataCache: Shutdown
-[2016.11.13-05.55.33:254][319]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.11.13-05.55.33:254][319]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.11.13-05.55.33:254][319]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.11.13-05.55.33:254][319]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.11.13-05.55.33:255][319]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.11.13-05.55.33:256][319]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.11.13-05.55.33:257][319]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.11.13-05.55.33:257][319]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.11.13-05.55.33:257][319]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.11.13-05.55.33:257][319]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.11.13-05.55.35:261][319]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.11.13-05.55.35:261][319]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.11.13-05.55.35:261][319]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.11.13-05.55.35:261][319]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.11.13-05.55.35:261][319]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.11.13-05.55.35:262][319]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.11.13-05.55.35:262][319]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.11.13-05.55.35:269][319]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.11.13-05.55.35:271][319]LogExit: Exiting.
-[2016.11.13-05.55.35:285][319]Log file closed, 11/13/16 00:55:35
+[2016.11.13-20.46.06:626][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.13-20.46.06:626][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.13-20.46.06:655][  0]LogInit: Computer: DALI-MSI
+[2016.11.13-20.46.06:655][  0]LogInit: User: edsad
+[2016.11.13-20.46.06:655][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.13-20.46.06:655][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2016.11.13-20.46.06:655][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.13-20.46.06:655][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.13-20.46.06:655][  0]LogMemory: Process Physical Memory: 313.29 MB used, 313.29 MB peak
+[2016.11.13-20.46.06:655][  0]LogMemory: Process Virtual Memory: 315.15 MB used, 315.15 MB peak
+[2016.11.13-20.46.06:655][  0]LogMemory: Physical Memory: 5161.16 MB used, 16284.60 MB total
+[2016.11.13-20.46.06:655][  0]LogMemory: Virtual Memory: 652.58 MB used, 134217728.00 MB total
+[2016.11.13-20.46.07:606][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.13-20.46.08:585][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.13-20.46.09:355][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2016.11.13-20.46.09:355][  0]LogD3D11RHI:       2018MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 1 output[s]
+[2016.11.13-20.46.09:371][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.11.13-20.46.09:372][  0]LogD3D11RHI:       128MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 0 output[s]
+[2016.11.13-20.46.09:377][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.13-20.46.09:377][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8142MB of shared system memory, 0 output[s]
+[2016.11.13-20.46.09:377][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.13-20.46.09:391][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.13-20.46.09:391][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2016.11.13-20.46.09:391][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.11.13-20.46.09:391][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.11.13-20.46.09:391][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.13-20.46.10:519][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.13-20.46.10:667][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Intermediate/Shaders/WorkingDirectory/13336/).
+[2016.11.13-20.46.10:668][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/edsad/AppData/Local/Temp/UnrealShaderWorkingDir/BA02CAE041B6A5BF74D8799A09CDD3A0/'.
+[2016.11.13-20.46.10:668][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.13-20.46.12:471][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.13-20.46.12:510][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.13-20.46.12:533][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.13-20.46.12:556][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.13-20.46.12:584][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.13-20.46.12:605][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.13-20.46.12:628][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.13-20.46.12:648][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.13-20.46.12:664][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.13-20.46.12:676][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.13-20.46.12:689][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.13-20.46.12:716][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.13-20.46.12:716][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.13-20.46.12:725][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.13-20.46.12:797][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.13-20.46.12:820][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.13-20.46.12:848][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.13-20.46.12:873][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.13-20.46.12:900][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.13-20.46.12:900][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.13-20.46.13:656][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.13-20.46.14:027][  0]LogDerivedDataCache: Loaded boot cache 0.37s 46MB C:/Users/edsad/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.11.13-20.46.14:027][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/edsad/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.11.13-20.46.14:027][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.13-20.46.14:027][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.13-20.46.14:027][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.13-20.46.14:027][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.13-20.46.14:071][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.13-20.46.14:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/edsad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.13-20.46.14:975][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.13-20.46.14:978][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.13-20.46.15:125][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.13-20.46.15:435][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.13-20.46.15:435][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.13-20.46.15:435][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.13-20.46.15:904][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.11.13-20.46.15:904][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.11.13-20.46.15:904][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.13-20.46.15:925][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.13-20.46.17:243][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.13-20.46.17:243][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.13-20.46.18:083][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.13-20.46.18:083][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.13-20.46.18:083][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.13-20.46.18:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.13-20.46.18:084][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.13-20.46.18:084][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.13-20.46.21:292][  0]LogGameAnalyticsAnalytics:Display: FAnalyticsGameAnalytics Constructor
+[2016.11.13-20.46.21:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.13-20.46.21:762][  0]LogAssetRegistry: FAssetRegistry took 0.0229 seconds to start up
+[2016.11.13-20.46.22:621][  0]SourceControl: Info Source control is disabled
+[2016.11.13-20.46.22:621][  0]SourceControl: Info Source control is disabled
+[2016.11.13-20.46.22:683][  0]SourceControl: Info Source control is disabled
+[2016.11.13-20.46.22:770][  0]SourceControl: Info Source control is disabled
+[2016.11.13-20.46.23:276][  0]SkunkLog_FixItNote: -----AFixItNote::AFixItNote - Creating a new FixIt note
+[2016.11.13-20.46.23:276][  0]SkunkLog_FixItNote: -----AFixItNote::Update
+[2016.11.13-20.46.23:283][  0]SkunkLog_FixItNote: -----FixItPlugin::StartupModule
+[2016.11.13-20.46.23:559][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.13-20.46.23:559][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.13-20.46.23:559][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.13-20.46.23:559][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.13-20.46.23:559][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.11.13-20.46.23:559][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.11.13-20.46.24:861][  0]SkunkLog_FixItNote: -----FixItPlugin::RegisterEdModeUsingFactory
+[2016.11.13-20.46.24:861][  0]SkunkLog_FixItNote: -----FixItPlugin::AddEditorModeExtension
+[2016.11.13-20.46.25:373][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.13-20.46.25:629][  0]LogEngine: Initializing Engine...
+[2016.11.13-20.46.26:132][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.13-20.46.26:158][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.11.13-20.46.26:354][  0]LogInit: FAudioDevice initialized.
+[2016.11.13-20.46.26:390][  0]LogDerivedDataCache: Saved boot cache 0.04s 46MB C:/Users/edsad/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.11.13-20.46.26:393][  0]LogInit: Texture streaming: Enabled
+[2016.11.13-20.46.26:479][  0]LogInit: Transaction tracking system initialized
+[2016.11.13-20.46.26:586][  0]BlueprintLog: New page: Editor Load
+[2016.11.13-20.46.27:644][  0]LocalizationService: Info Localization service is disabled
+[2016.11.13-20.46.28:314][  0]LogConsoleResponse:Display: 
+[2016.11.13-20.46.28:776][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.13-20.46.28:776][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.13-20.46.28:776][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.13-20.46.29:178][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/' took 0.01s
+[2016.11.13-20.46.29:178][  0]SourceControl: Info Source control is disabled
+[2016.11.13-20.46.29:179][  0]Cmd: MAP LOAD FILE="D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.13-20.46.29:246][  0]LightingResults: New page: Lighting Build
+[2016.11.13-20.46.29:259][  0]MapCheck: New page: Map Check
+[2016.11.13-20.46.29:259][  0]LightingResults: New page: Lighting Build
+[2016.11.13-20.46.31:723][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-20.46.31:872][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-20.46.31:872][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.13-20.46.31:873][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.13-20.46.31:996][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.463ms to complete.
+[2016.11.13-20.46.31:996][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.817
+[2016.11.13-20.46.31:996][  0]SkunkLog_FixItNote: -----FixItPlugin::MapOpened...
+[2016.11.13-20.46.31:996][  0]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-20.46.32:112][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-20.46.32:112][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-20.46.32:112][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook - First time
+[2016.11.13-20.46.32:112][  0]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-20.46.32:113][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-20.46.32:113][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-20.46.32:115][  0]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-20.46.32:115][  0]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-20.46.32:176][  0]LogCollectionManager: Loaded 0 collections in 0.008492 seconds
+[2016.11.13-20.46.32:235][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/Collections/' took 0.01s
+[2016.11.13-20.46.32:235][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/Developers/edsad/Collections/' took 0.01s
+[2016.11.13-20.46.32:235][  0]LogFileCache: Scanning file cache for directory 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/Collections/' took 0.01s
+[2016.11.13-20.46.32:235][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000017 seconds
+[2016.11.13-20.46.32:257][  0]LogContentBrowser: Native class hierarchy populated in 0.0210 seconds. Added 1982 classes and 350 folders.
+[2016.11.13-20.46.32:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.13-20.46.32:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.13-20.46.32:273][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0010 seconds. Added 12 classes and 0 folders.
+[2016.11.13-20.46.32:287][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.13-20.46.32:340][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.11.13-20.46.32:605][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.13-20.46.32:640][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.13-20.46.32:713][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.13-20.46.32:721][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.13-20.46.32:770][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.13-20.46.32:770][  0]LogLoad: Full Startup: 27.84 seconds (BP compile: 0.18 seconds)
+[2016.11.13-20.46.32:770][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.13-20.46.32:770][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.13-20.46.33:112][  0]LogOcInput: OculusInput pre-init called
+[2016.11.13-20.46.33:333][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.13-20.46.33:578][  0]LogRenderer: Reallocating scene render targets to support 1308x720 (Frame:2).
+[2016.11.13-20.46.33:658][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.11.13-20.46.33:814][  1]LogAssetRegistry: Asset discovery search completed in 12.0749 seconds
+[2016.11.13-20.46.33:815][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.13-20.46.33:815][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info On branch master
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info Changes not staged for commit:
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info 	modified:   GSP340GrpBWk2Ilab/Intermediate/CachedAssetRegistry.bin
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info 	modified:   GSP340GrpBWk2Ilab/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info 	modified:   GSP340GrpBWk2Ilab/Saved/Config/Windows/Engine.ini
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info 	modified:   GSP340GrpBWk2Ilab/Saved/Logs/GSP340GrpBWk2Ilab.log
+[2016.11.13-20.48.22:064][ 93]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.11.13-21.27.26:452][750]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/FogEffects/AtmosphericFog/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2016.11.13-21.27.47:898][816]LogEditorViewport: Clicking Background
+[2016.11.13-21.27.50:457][853]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/FogEffects/HeightFog/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2016.11.13-21.32.01:854][608]LogEditorViewport: Clicking Background
+[2016.11.13-21.32.59:418][306]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.32.59:418][306]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.33.14:010][664]LogEditorViewport: Clicking on Actor (context menu): ExponentialHeightFog (ExponentialHeightFog)
+[2016.11.13-21.33.33:710][844]LogEditorViewport: Clicking on Actor (LMB): ExponentialHeightFog (ExponentialHeightFog)
+[2016.11.13-21.33.33:710][844]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.33.33:710][844]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.33.33:794][844]LogEditorViewport: Clicking on Actor (double click): ExponentialHeightFog (ExponentialHeightFog)
+[2016.11.13-21.33.33:794][844]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.33.33:795][844]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.34.19:551][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-21.34.19:551][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-21.34.19:556][495]PIE: New page: PIE session: FirstPersonExampleMap (Nov 13, 2016, 11:34:19 AM)
+[2016.11.13-21.34.19:556][495]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-21.34.19:603][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046608s)
+[2016.11.13-21.34.19:604][495]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-21.34.19:604][495]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2016.11.13-21.34.19:605][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.047977s)
+[2016.11.13-21.34.19:624][495]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.34.19:624][495]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.34.19:629][495]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.11.13-21.34.19:679][495]LogInit: FAudioDevice initialized.
+[2016.11.13-21.34.20:131][495]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-21.34.20:155][495]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.11.13-16.34.20
+[2016.11.13-21.34.20:160][495]LogWorld: Bringing up level for play took: 0.025383
+[2016.11.13-21.34.20:170][495]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 9 classes and 0 folders.
+[2016.11.13-21.34.20:171][495]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.726
+[2016.11.13-21.34.20:172][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-21.36.04:624][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-21.36.04:624][434]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.36.04:624][434]SkunkLog_FixItNote: -----FixItPlugin::EndPIE...
+[2016.11
