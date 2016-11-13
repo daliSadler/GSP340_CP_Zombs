@@ -230,4 +230,510 @@ LogInit: Object subsystem initialized
 [2016.11.13-21.36.04:624][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
 [2016.11.13-21.36.04:624][434]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
 [2016.11.13-21.36.04:624][434]SkunkLog_FixItNote: -----FixItPlugin::EndPIE...
-[2016.11
+[2016.11.13-21.36.04:627][434]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-21.36.04:627][434]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-21.36.04:627][434]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-21.36.04:627][434]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-21.36.04:628][434]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-21.36.04:628][434]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-21.36.04:679][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-21.36.27:152][109]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.11.13-21.36.27:152][109]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.36.27:152][109]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.37.14:315][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2016.11.13-21.37.14:315][807]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.37.14:315][807]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.37.16:764][834]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
+[2016.11.13-21.37.17:499][834]LogSavePackage: Save=449.08ms
+[2016.11.13-21.37.17:499][834]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMapF4E0CAD24596D294B21692A8D3CD9D89.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.11.13-21.37.17:501][834]LogSavePackage: Total save time: 728.21ms
+[2016.11.13-21.37.17:501][834]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.11.13-21.37.17:520][834]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
+[2016.11.13-21.37.17:521][834]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-21.37.17:521][834]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-21.37.17:522][834]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.884
+[2016.11.13-21.39.49:962][843]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape3)
+[2016.11.13-21.39.49:962][843]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.39.49:963][843]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.40.02:638][222]LogEditorViewport: Clicking Background
+[2016.11.13-21.40.02:638][222]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.40.02:638][222]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.40.24:788][642]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/PostProcessEffects/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2016.11.13-21.43.46:221][410]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/Volumes/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors#Volume Types
+[2016.11.13-21.55.39:230][460]LogEditorViewport: Clicking Background
+[2016.11.13-21.55.54:772][182]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.55.54:772][182]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.58.15:676][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2016.11.13-21.58.15:676][ 36]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-21.58.15:676][ 36]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.00.10:828][409]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.00.10:828][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-22.00.10:828][409]PIE: New page: PIE session: FirstPersonExampleMap (Nov 13, 2016, 12:00:10 PM)
+[2016.11.13-22.00.10:828][409]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-22.00.10:881][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052848s)
+[2016.11.13-22.00.10:881][409]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-22.00.10:882][409]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2016.11.13-22.00.10:882][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.054068s)
+[2016.11.13-22.00.10:895][409]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.00.10:895][409]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.00.10:902][409]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.11.13-22.00.10:956][409]LogInit: FAudioDevice initialized.
+[2016.11.13-22.00.10:987][409]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-22.00.11:002][409]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.11.13-17.00.11
+[2016.11.13-22.00.11:006][409]LogWorld: Bringing up level for play took: 0.017856
+[2016.11.13-22.00.11:007][409]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.437
+[2016.11.13-22.00.11:007][409]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.00.29:791][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.00.29:791][317]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.00.29:791][317]SkunkLog_FixItNote: -----FixItPlugin::EndPIE...
+[2016.11.13-22.00.29:794][317]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.00.29:794][317]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.00.29:794][317]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.00.29:794][317]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.00.29:794][317]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.00.29:794][317]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.00.29:845][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.00.46:810][223]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.00.46:810][223]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.00.46:810][223]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.07:384][438]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.01.07:384][438]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.01.08:227][532]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.01.08:227][532]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.01.08:448][557]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.01.08:448][557]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.01.22:331][ 77]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.22:331][ 77]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.27:216][659]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.01.27:216][659]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.27:216][659]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.31:327][146]LogEditorViewport: Clicking Background
+[2016.11.13-22.01.31:327][146]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.31:327][146]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.31:975][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube9)
+[2016.11.13-22.01.31:975][223]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.31:975][223]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.55:580][186]LogEditorViewport: Clicking Background
+[2016.11.13-22.01.55:580][186]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.55:580][186]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.58:858][577]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.01.58:858][577]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.01.58:858][577]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.02:696][211]LogEditorViewport: Clicking Background
+[2016.11.13-22.03.02:696][211]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.02:696][211]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.06:487][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.03.06:488][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-22.03.06:488][664]PIE: New page: PIE session: FirstPersonExampleMap (Nov 13, 2016, 12:03:06 PM)
+[2016.11.13-22.03.06:488][664]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-22.03.06:534][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046097s)
+[2016.11.13-22.03.06:534][664]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-22.03.06:534][664]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2016.11.13-22.03.06:534][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.046919s)
+[2016.11.13-22.03.06:550][664]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.11.13-22.03.06:604][664]LogInit: FAudioDevice initialized.
+[2016.11.13-22.03.06:635][664]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-22.03.06:648][664]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.11.13-17.03.06
+[2016.11.13-22.03.06:650][664]LogWorld: Bringing up level for play took: 0.014069
+[2016.11.13-22.03.06:652][664]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.793
+[2016.11.13-22.03.06:652][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.03.16:385][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.03.16:385][ 43]SkunkLog_FixItNote: -----FixItPlugin::EndPIE...
+[2016.11.13-22.03.16:386][ 43]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.03.16:386][ 43]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.03.16:387][ 43]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.03.16:387][ 43]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.03.16:387][ 43]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.03.16:387][ 43]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.03.16:420][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.03.18:290][265]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.03.18:290][265]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.18:290][265]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.49:767][ 35]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.49:780][ 35]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.49:780][ 35]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.55:993][777]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.56:005][777]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.03.56:005][777]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.04.46:100][770]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.04.46:116][770]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.04.46:116][770]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.04.48:633][ 71]LogEditorViewport: Clicking Background
+[2016.11.13-22.04.48:633][ 71]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.04.48:633][ 71]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.04.51:584][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.04.51:584][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-22.04.51:584][423]PIE: New page: PIE session: FirstPersonExampleMap (Nov 13, 2016, 12:04:51 PM)
+[2016.11.13-22.04.51:584][423]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-22.04.51:634][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049795s)
+[2016.11.13-22.04.51:635][423]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-22.04.51:635][423]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2016.11.13-22.04.51:636][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051413s)
+[2016.11.13-22.04.51:648][423]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.11.13-22.04.51:697][423]LogInit: FAudioDevice initialized.
+[2016.11.13-22.04.51:736][423]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-22.04.51:767][423]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.11.13-17.04.51
+[2016.11.13-22.04.51:771][423]LogWorld: Bringing up level for play took: 0.032402
+[2016.11.13-22.04.51:773][423]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.329
+[2016.11.13-22.04.51:774][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.06.10:416][486]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:481][488]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:511][489]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:776][499]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:790][500]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:860][506]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:875][507]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:904][509]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:936][510]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.10:945][511]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.11:038][515]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:090][776]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:156][778]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:342][784]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:406][786]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:467][788]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:529][790]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:652][794]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.19:844][800]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:028][806]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:090][808]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:273][814]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:695][828]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:755][830]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:875][834]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.20:935][836]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.21:238][846]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.21:299][848]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.21:361][850]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.21:421][852]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.21:550][856]LogCharacterMovement: FirstPersonCharacter_C_1 is stuck and failed to move!
+[2016.11.13-22.06.22:465][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.06.22:465][886]SkunkLog_FixItNote: -----FixItPlugin::EndPIE...
+[2016.11.13-22.06.22:467][886]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.06.22:467][886]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.06.22:467][886]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.06.22:467][886]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.06.22:467][886]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.06.22:467][886]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.06.22:501][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.06.24:541][129]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2016.11.13-22.06.24:541][129]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.24:541][129]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.36:562][566]Cmd: TRANSACTION UNDO
+[2016.11.13-22.06.36:562][566]LogEditorTransaction: Undo Move Actors
+[2016.11.13-22.06.36:563][566]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.40:689][765]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume3)
+[2016.11.13-22.06.40:689][765]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.40:689][765]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.44:877][261]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.06.44:877][261]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.44:877][261]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.49:267][783]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume4)
+[2016.11.13-22.06.49:268][783]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.49:268][783]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.52:000][107]LogEditorViewport: Clicking Background
+[2016.11.13-22.06.52:000][107]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.06.52:000][107]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.03:520][487]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.11.13-22.07.03:520][487]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.03:520][487]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.10:269][123]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume4)
+[2016.11.13-22.07.10:269][123]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.10:269][123]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.18:937][159]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2016.11.13-22.07.18:937][159]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.18:937][159]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.28:314][279]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2016.11.13-22.07.28:314][279]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.28:314][279]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.30:538][542]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.07.30:539][542]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.30:539][542]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.37:171][333]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume3)
+[2016.11.13-22.07.37:171][333]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.37:171][333]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.41:790][883]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2016.11.13-22.07.41:790][883]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.41:790][883]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.47:706][589]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume4)
+[2016.11.13-22.07.47:706][589]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.07.47:706][589]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.06:069][780]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2016.11.13-22.08.06:069][780]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.06:069][780]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.16:850][ 56]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume3)
+[2016.11.13-22.08.16:850][ 56]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.16:850][ 56]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.32:903][975]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2016.11.13-22.08.32:903][975]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.32:903][975]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.45:712][502]LogEditorViewport: Clicking Background
+[2016.11.13-22.08.45:712][502]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.45:712][502]SkunkLog_FixItNote: -----FFixItEditorModeFactory::OnSelectionChanged
+[2016.11.13-22.08.48:463][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.08.48:463][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.13-22.08.48:463][830]PIE: New page: PIE session: FirstPersonExampleMap (Nov 13, 2016, 12:08:48 PM)
+[2016.11.13-22.08.48:464][830]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.11.13-22.08.48:512][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048488s)
+[2016.11.13-22.08.48:513][830]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.11.13-22.08.48:513][830]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2016.11.13-22.08.48:513][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.049292s)
+[2016.11.13-22.08.48:527][830]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.11.13-22.08.48:576][830]LogInit: FAudioDevice initialized.
+[2016.11.13-22.08.48:617][830]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.11.13-22.08.48:646][830]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.11.13-17.08.48
+[2016.11.13-22.08.48:652][830]LogWorld: Bringing up level for play took: 0.032392
+[2016.11.13-22.08.48:654][830]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.791
+[2016.11.13-22.08.48:654][830]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.10.37:782][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.10.37:783][593]SkunkLog_FixItNote: -----FixItPlugin::EndPIE...
+[2016.11.13-22.10.37:786][593]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.10.37:786][593]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.10.37:786][593]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.10.37:786][593]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.10.37:786][593]SkunkLog_FixItNote: -----FFixItEditorModeFactory::GetModeInfo
+[2016.11.13-22.10.37:786][593]SkunkLog_FixItNote: -----FFixItEdMode::StartupHook
+[2016.11.13-22.10.37:815][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.11.13-22.11.01:656][805]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
+[2016.11.13-22.11.02:222][805]LogSavePackage: Save=554.21ms
+[2016.11.13-22.11.02:222][805]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMap9861A8C74C86FB4313AAFE8FA42DA901.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.11.13-22.11.02:226][805]LogSavePackage: Total save time: 560.56ms
+[2016.11.13-22.11.02:226][805]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.11.13-22.11.02:248][805]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
+[2016.11.13-22.11.02:248][805]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-22.11.02:249][805]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-22.11.02:257][805]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.715
+[2016.11.13-22.11.11:154][ 87]SkunkLog_FixItNote: -----FixItPlugin::PreSave...
+[2016.11.13-22.11.11:574][ 87]LogSavePackage: Save=410.30ms
+[2016.11.13-22.11.11:574][ 87]LogSavePackage: Moving 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Saved/FirstPersonExampleMapC307FEDB4A52CEFC910A0C8C51A28A60.tmp' to 'D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.11.13-22.11.11:576][ 87]LogSavePackage: Total save time: 413.19ms
+[2016.11.13-22.11.11:576][ 87]LogSavePackage:Display: Finished SavePackage D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.11.13-22.11.11:600][ 87]SkunkLog_FixItNote: -----FixItPlugin::PostSave...
+[2016.11.13-22.11.11:600][ 87]SkunkLog_FixItNote: -----FFixItEdMode::SaveInfoToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-22.11.11:600][ 87]SkunkLog_FixItNote: -----FFixItEdMode::LoadFromXMLFile XML file not found: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-22.11.13:058][180]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.13-22.11.13:328][181]Cmd: QUIT_EDITOR
+[2016.11.13-22.11.14:286][181]LogExit: Preparing to exit.
+[2016.11.13-22.11.14:286][181]SkunkLog_FixItNote: -----FixItPlugin::PreExit...
+[2016.11.13-22.11.14:286][181]SkunkLog_FixItNote: -----FFixItEdMode::PreShutdownHook
+[2016.11.13-22.11.14:286][181]SkunkLog_FixItNote: -----FFixItEdMode::SaveToXMLFile could not delete XML file: D:/GSP340_CP_Zombs/GSP340GrpBWk2Ilab/Plugins/Fixit/Data/FixItNotes.FirstPersonExampleMap.xml
+[2016.11.13-22.11.15:378][181]LogExit: Editor shut down
+[2016.11.13-22.11.15:379][181]LogExit: Transaction tracking system shut down
+[2016.11.13-22.11.15:543][181]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.13-22.11.15:543][181]LogExit: Object subsystem successfully closed.
+[2016.11.13-22.11.15:564][181]LogD3D11RHI: Shutdown
+[2016.11.13-22.11.15:564][181]LogD3D11RHI: CleanupD3DDevice
+[2016.11.13-22.11.15:755][181]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.13-22.11.15:799][181]LogDerivedDataCache: Shutdown
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (209)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (207)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module CrashTracker (206)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module SceneOutliner (205)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module SuperSearch (204)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module WidgetCarousel (203)
+[2016.11.13-22.11.15:800][181]LogModuleManager: Shutting down and abandoning module AddContentDialog (202)
+[2016.11.13-22.11.15:801][181]LogModuleManager: Shutting down and abandoning module GameplayTags (201)
+[2016.11.13-22.11.15:801][181]LogModuleManager: Shutting down and abandoning module EditorWidgets (200)
+[2016.11.13-22.11.15:801][181]LogModuleManager: Shutting down and abandoning module CollectionManager (199)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module FoliageEdit (197)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module LandscapeEditor (196)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module ActorPickerMode (195)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module GeometryMode (194)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module TextureAlignMode (193)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module BspMode (192)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module PlacementMode (191)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module AutomationWorker (190)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module CharacterAI (189)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module SmartSnapping (188)
+[2016.11.13-22.11.15:802][181]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.11.13-22.11.15:803][181]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.11.13-22.11.16:076][181]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.11.13-22.11.16:077][181]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.11.13-22.11.16:078][181]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.11.13-22.11.16:078][181]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.11.13-22.11.16:078][181]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.11.13-22.11.16:078][181]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.11.13-22.11.16:109][181]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.11.13-22.11.16:109][181]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.11.13-22.11.16:109][181]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.11.13-22.11.16:109][181]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.11.13-22.11.16:109][181]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.11.13-22.11.16:110][181]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module GameplayDebugger (131)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.11.13-22.11.16:111][181]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.11.13-22.11.16:323][181]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.11.13-22.11.16:324][181]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module FixItNotePlugin (117)
+[2016.11.13-22.11.16:325][181]SkunkLog_FixItNote: -----FixItPlugin::ShutdownModule
+[2016.11.13-22.11.16:325][181]SkunkLog_FixItNote: -----FFixItEdMode::ShutdownHook
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.11.13-22.11.16:325][181]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.11.13-22.11.16:326][181]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.11.13-22.11.16:327][181]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.11.13-22.11.16:327][181]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.11.13-22.11.16:328][181]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (98)
+[2016.11.13-22.11.16:330][181]LogModuleManager: Shutting down and abandoning module AssetRegistry (97)
+[2016.11.13-22.11.16:476][181]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.11.13-22.11.16:477][181]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.11.13-22.11.16:477][181]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module GameAnalyticsEditor (93)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module GameAnalytics (92)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.11.13-22.11.16:577][181]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.11.13-22.11.16:578][181]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.11.13-22.11.16:579][181]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.11.13-22.11.16:579][181]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.11.13-22.11.16:579][181]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.11.13-22.11.16:579][181]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.11.13-22.11.16:579][181]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.11.13-22.11.16:586][181]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.11.13-22.11.16:586][181]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.11.13-22.11.16:586][181]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.11.13-22.11.16:586][181]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.11.13-22.11.16:586][181]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.11.13-22.11.16:587][181]LogDerivedDataCache: Shutdown
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.13-22.11.16:587][181]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.13-22.11.16:588][181]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.13-22.11.18:590][181]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.13-22.11.18:590][181]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.13-22.11.18:590][181]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.13-22.11.18:590][181]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.13-22.11.18:592][181]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.13-22.11.18:592][181]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.13-22.11.18:592][181]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.13-22.11.18:593][181]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.13-22.11.18:595][181]LogExit: Exiting.
+[2016.11.13-22.11.18:603][181]Log file closed, 11/13/16 17:11:18
