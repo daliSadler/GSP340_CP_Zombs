@@ -64,3 +64,4 @@ GSP340GrpBWk2Ilab/Intermediate/*
 
 # Cache files for the editor to use
 GSP340GrpBWk2Ilab/DerivedDataCache/*
+*.log
